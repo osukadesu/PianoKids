@@ -21,58 +21,49 @@ public class LogicaImg : MonoBehaviour
         {
             notaImg.sprite = Resources.Load<Sprite>("Sprites/DO");
         }
-
-        if (Input.GetKeyUp(KeyCode.Q))
-        {
-            notaImg.sprite = Resources.Load<Sprite>("Sprites/NEUTRO");
-        }
         if (Input.GetKeyDown(KeyCode.R))
         {
             notaImg.sprite = Resources.Load<Sprite>("Sprites/FA");
-        }
-        if (Input.GetKeyUp(KeyCode.R))
-        {
-            notaImg.sprite = Resources.Load<Sprite>("Sprites/NEUTRO");
         }
         if (Input.GetKeyDown(KeyCode.Y))
         {
             notaImg.sprite = Resources.Load<Sprite>("Sprites/LA");
         }
-        if (Input.GetKeyUp(KeyCode.Y))
-        {
-            notaImg.sprite = Resources.Load<Sprite>("Sprites/NEUTRO");
-        }
         if (Input.GetKeyDown(KeyCode.E))
         {
             notaImg.sprite = Resources.Load<Sprite>("Sprites/MI");
-        }
-        if (Input.GetKeyUp(KeyCode.E))
-        {
-            notaImg.sprite = Resources.Load<Sprite>("Sprites/NEUTRO");
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
             notaImg.sprite = Resources.Load<Sprite>("Sprites/RE");
         }
-        if (Input.GetKeyUp(KeyCode.W))
-        {
-            notaImg.sprite = Resources.Load<Sprite>("Sprites/NEUTRO");
-        }
         if (Input.GetKeyDown(KeyCode.U))
         {
             notaImg.sprite = Resources.Load<Sprite>("Sprites/SI");
-        }
-        if (Input.GetKeyUp(KeyCode.U))
-        {
-            notaImg.sprite = Resources.Load<Sprite>("Sprites/NEUTRO");
         }
         if (Input.GetKeyDown(KeyCode.T))
         {
             notaImg.sprite = Resources.Load<Sprite>("Sprites/SOL");
         }
-        if (Input.GetKeyUp(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            notaImg.sprite = Resources.Load<Sprite>("Sprites/NEUTRO");
+            notaImg.sprite = Resources.Load<Sprite>("Sprites/DOREB");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            notaImg.sprite = Resources.Load<Sprite>("Sprites/FASOLB");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha7))
+        {
+            notaImg.sprite = Resources.Load<Sprite>("Sprites/LASIB");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            notaImg.sprite = Resources.Load<Sprite>("Sprites/REMIB");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            notaImg.sprite = Resources.Load<Sprite>("Sprites/SOLLAB");
         }
     }
 }
